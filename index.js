@@ -29,6 +29,7 @@ app.post("/average",(req,res)=>{
         const avg = sum/numbers.length
         return res.status(200).json({average:avg})
     }
+    
     else{
         return res.status(400).json({request:"bad request"})
     }
