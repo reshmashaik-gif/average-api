@@ -38,6 +38,7 @@ app.post("/average",(req,res)=>{
     }
 })
 
+
 if (require.main === module){
     app.listen(port,()=>{
     console.log("server started")
